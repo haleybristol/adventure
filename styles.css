@@ -86,7 +86,8 @@ body {
 }
 
 #story {
-  padding-top: 15px;
+  line-height: 1.2em;
+  padding-top: 13px;
   padding-left: 23px;
   padding-right: 23px;
   padding-bottom: 15px;
@@ -94,15 +95,111 @@ body {
   border: 2px solid #ffffff;
   letter-spacing: 2px;
   font-weight: bold;
-  font-size: .8em;
+  font-size: 1.2em;
   font-family: 'Roboto Condensed', sans-serif;
   color: white;
   background-color: rgb(255, 255, 255);
   background-color: rgba(255, 255, 255, 0.37);
 }
 
+#story img {
+  width: 25px;
+  height: 25px;
+  padding-right:15px;
+  margin-top: 0px;
+
+}
+
+#facebutton img {
+  width: 25px;
+  height: 25px;
+  border-radius: 5px;
+  position: absolute;
+  left: 10%;
+
+}
+
+#facebutton {
+  position: relative;
+  line-height: 1.2em;
+  padding-top: 18px;
+  padding-left: 23px;
+  padding-bottom: 15px;
+  border-radius: 5px;
+  letter-spacing: 2px;
+  font-weight: bolder;
+  width: 250px;
+  height: 62px;
+  font-size: 1.2em;
+  font-family: 'Roboto Condensed', sans-serif;
+  color: white;
+  background-color:	#3b5998
 
 
+}
+
+#plane  {
+  background-color: rgba(255, 255, 255, .37);
+  color: white;
+  text-align: center;
+  line-height: 1.2em;
+  padding-top: 10px;
+  padding-left: 50px;
+  padding-right: 23px;
+  padding-bottom: 8px;
+  margin-bottom: 30px;
+  font-size: 1.3em;
+  text-decoration: none;
+  position: relative;
+  width: 200px;
+  height: 50px;
+  border: 2px solid white;
+  border-radius: 5px;
+  font-family: 'Roboto Condensed', sans-serif;
+  letter-spacing: 2px;
+
+}
+
+#plane img {
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  border-radius: 110%;
+  float: left;
+  left: 5%;
+  top: 2px;
+}
+
+#app {
+  background-color: rgba(255, 255, 255, .37);
+  color: white;
+  text-align: center;
+  line-height: 1.2em;
+  padding-top: 10px;
+  padding-left: 50px;
+  padding-right: 23px;
+  padding-bottom: 8px;
+  margin-bottom: 30px;
+  font-size: 1.3em;
+  text-decoration: none;
+  position: relative;
+  width: 200px;
+  height: 50px;
+  border: 2px solid white;
+  border-radius: 5px;
+  font-family: 'Roboto Condensed', sans-serif;
+  letter-spacing: 2px;
+}
+
+
+#app img{
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  float: left;
+  left: 5%;
+  top: 2px;
+}
 footer {
     position: absolute;
     left: 0;
